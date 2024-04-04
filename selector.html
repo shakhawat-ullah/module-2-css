@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Universal selector */
+        * {
+            /* margin: 0; */
+        }
+
+        .blueviolet,
+        .last {
+            color: blueviolet;
+
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+
+        #second,
+        .fifth {
+            background-color: palegreen;
+            width: 50%;
+        }
+
+        .blog{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: justify;
+            border: 3px solid rebeccapurple;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        form{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .fourth{
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="blueviolet bold">This is paragraph number 1</p>
+    <p id="second">This is paragraph number 2</p>
+    <p>This is paragraph number 3</p>
+    <p class="bold">This is paragraph <span class="fourth">number 4</span></p>
+    <p class="fifth">This is paragraph number 5</p>
+    <p>This is paragraph number 6</p>
+    <p class="last">This is paragraph number 7</p>
+
+    <div class="blog">
+        <h2>My First Blog</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam rerum sit voluptas, labore qui sequi atque neque natus, autem eos necessitatibus enim nemo distinctio, aliquid hic quaerat? Impedit, veniam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam rerum sit voluptas, labore qui sequi atque neque natus, autem eos necessitatibus enim nemo distinctio, aliquid hic quaerat? Impedit, veniam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quibusdam rerum sit voluptas, labore qui sequi atque neque natus, autem eos necessitatibus enim nemo distinctio, aliquid hic quaerat? Impedit, veniam?</p>
+    </div>
+
+    <form action="">
+
+        <input type="text">
+        <input type="checkbox" name="" id="">
+        <input type="color" name="" id="">
+        <input type="week" name="" id="">
+        <input type="url" name="" id="">
+        <input type="text" name="" id="">
+        <input type="tel" placeholder="telephone number" name="" id="">
+        <input type="time" name="" id="">
+        <input type="date" name="" id="">
+        <input type="datetime" name="" id="">
+        <input type="datetime-local" name="" id="">
+
+        <input type="email" name="" id="" placeholder="your email">
+
+        <input type="file" name="" id="">
+
+        <input type="search" name="" id="" placeholder="search information">
+        
+        <input type="image" src="" alt="no image is found">
+        
+        <input type="reset" value="reset">
+
+        <input type="range" name="" id="">
+
+    </form>
+
+
+</body>
+
+</html>
